@@ -47,7 +47,10 @@ public class SecurityConfig {
                                         "api/movie/**",
                                         "/api/movie/title/**",
                                         "/api/movie/create/**",
-                                        "/api/demo/test/**")
+                                        "/api/demo/test/**",
+                                        "api/reviews/**",
+                                        "/api/reviews/create/**")
+
                                 .permitAll()
                                 .requestMatchers("/api/authenticate/admin_only/**").hasAuthority("ADMIN")
                                 .anyRequest()
