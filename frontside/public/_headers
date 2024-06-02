@@ -1,0 +1,8 @@
+/*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+  X-Content-Type-Options: nosniff
+  X-Permitted-Cross-Domain-Policies: none
+  Referrer-Policy: no-referrer
+  Cache-Control: no-store, max-age=0
